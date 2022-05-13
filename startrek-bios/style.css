@@ -1,0 +1,117 @@
+/* ***** GLOBAL STYLES ***** */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+  font-family: monospace;
+  font-size: 16px;
+}
+
+:root {
+  --starfleet-red: #a71313;
+  --starfleet-blue: #2b53a7;
+  --starfleet-yellow: #d6a444;
+  --starfleet-grey: #4d4a5b;
+  --background-clr-1: #Eeeeee;
+}
+
+.navbar {
+  background-color: var(--starfleet-yellow);
+  border-bottom: solid #4d4a5b 2px;
+}
+
+.navbar-brand {
+  margin-left: 75px;
+}
+
+.navbar-brand img {
+  height: 50px;
+  width: auto;
+}
+
+#enterprise {
+  height: 30px;
+  width: auto;
+  margin-left: 1260px;
+}
+
+/* ***** Home.html Styling ***** */
+.middle-content {
+  width: 100%;
+  height: 100%;
+  background-color: var(--background-clr-1);
+}
+
+.bios-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.bios-list .bios-list li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+}
+
+.bios-list img {
+  width: 322px;
+  height: 400px;
+  margin: 15px;
+  border: solid var(--starfleet-yellow) 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 15px var(--starfleet-grey);
+          box-shadow: 0px 0px 15px var(--starfleet-grey);
+}
+
+.bios-list img:hover {
+  cursor: pointer;
+  -webkit-filter: grayscale(100%) !important;
+  filter: grayscale(100%) !important;
+}
+
+.footer-content {
+  background-color: var(--starfleet-yellow);
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: large;
+}
+
+i {
+  margin: 10px;
+  font-size: x-large;
+}
+
+i :hover {
+  cursor: pointer;
+}
+
+/* ***** Stardate Calculator Styles ***** */
+/*# sourceMappingURL=style.css.map */
